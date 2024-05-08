@@ -1,0 +1,29 @@
+--első
+{$and : [{'countries.0' : 'USA'}, {'imdb.rating' : {$gte : 5}}]}
+{title : 1, countries: 1 , 'imdb.rating' : 1}
+{'imdb.rating' : -1}
+
+--második
+db.users.find( {email : {$regex : /.com/}}, { name: 1, email: 1 } )
+
+
+--harmadik
+db.movies.aggregate([ { $match: { year: { $gt: 1950 } } }, { $group: { _id: '$rated', atlag: { $avg: '$runtime' } } }])
+
+
+
+--negyedik
+MATCH(p:Person)-[:ACTED_IN]->(m:Movie)
+WITH m.title AS `cim`, COUNT(p.name) AS `db`
+RETURN cim, db
+ORDER BY db DESC
+LIMIT 1
+
+
+
+--ötödik
+MATCH(p:Person)-[:DIRECTED]->(m:Movie)
+WHERE m.released < 2000
+WITH p.name AS `nev`, COUNT(*) AS `db`
+WHERE db > 1
+RETURN nev, db
