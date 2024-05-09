@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2C88E0B-A6C2-6DAE-161E-4FD76911A400" name="Versenyzok">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>BE30BAE7-B969-BCF4-B464-F7BC3AAF0298</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="versenyzo_id" id="4F4D7731-8541-5176-6E04-CB3B89DF46E7">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>EDCCAA0B-D5F6-6633-F565-6610F99BDAB7</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nev" id="33C50E60-7C94-95F7-A58F-BEDB2CEB7E33">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>C351E937-3EB1-F662-345A-1CBD956F8D48</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eletkor" id="5AB9AF97-D257-27EA-0FAD-64C9A61C7CF4">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>5610CADD-91A5-11CE-BED6-8C42C8656BC9</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nem" id="8F50ABD5-9C16-6A96-EF68-1D329C66F52E">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>99E5E055-54EF-C6CE-CCA6-F2B666A455A7</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="0EE011CD-2434-5C68-DAA4-4A2E9E6CB243">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>4C589E3A-645E-1E9E-B574-60165340D92B</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE9B03DF-8715-9056-B5CD-7C48E38EDC07" name="Versenyzok_PK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>18FA5338-1214-4F99-1B7F-C2885536DCEF</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F4D7731-8541-5176-6E04-CB3B89DF46E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

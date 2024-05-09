@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="versenyzo_id" directorySegmentName="seg_0" id="22DA5FF0-3BB5-62F5-5AD8-E66C5A94CC82">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 12:54:49 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<sourcePk>18FA5338-1214-4F99-1B7F-C2885536DCEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE30BAE7-B969-BCF4-B464-F7BC3AAF0298</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61878B97-911B-1535-EF04-952575C3CC4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

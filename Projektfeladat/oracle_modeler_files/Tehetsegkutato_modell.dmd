@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tehetsegkutato_modell" id="1ADF61D8-3763-4C63-6604-E46A85C11689" version="3.5">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 09:25:04 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1ADF61D8-3763-4C63-6604-E46A85C11689</designId>
+</OSDM_Design>

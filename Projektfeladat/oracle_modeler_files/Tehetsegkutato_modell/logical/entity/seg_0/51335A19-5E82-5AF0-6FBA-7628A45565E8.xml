@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51335A19-5E82-5AF0-6FBA-7628A45565E8" name="Pont">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 09:31:34 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pont_ertek" id="1D91BFE5-B9EB-999F-E46E-E4B23B1C0F08">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 11:58:37 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="szereples_id" id="E4D0ACCA-8503-5C77-DE97-777A54F3E85E">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 12:52:43 UTC</createdTime>
+<generatorID>E63932D7-1E7D-C6A7-EE34-194DB52410BA</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<referedAttribute>E1D18992-27F8-7DC0-34E2-370FA7569787</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zsuri_id" id="BEF18710-54C4-2919-D2B3-23D89C133522">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 13:06:41 UTC</createdTime>
+<generatorID>3D10132B-51B7-CD2A-07B2-175693DCA7CB</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<referedAttribute>A25B95D5-B651-B101-F75C-14603052B858</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

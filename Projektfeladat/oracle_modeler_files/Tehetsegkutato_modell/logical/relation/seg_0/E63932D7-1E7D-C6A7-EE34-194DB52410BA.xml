@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="szereples_id" directorySegmentName="seg_0" id="E63932D7-1E7D-C6A7-EE34-194DB52410BA">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 12:52:43 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<sourcePk>2B1DEB2F-128C-4B11-8849-F4291573C3AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>61878B97-911B-1535-EF04-952575C3CC4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51335A19-5E82-5AF0-6FBA-7628A45565E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

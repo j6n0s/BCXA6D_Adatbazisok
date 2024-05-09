@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1B7982B6-81DD-27A3-C42F-36DBFFB0F9A7">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 09:25:04 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

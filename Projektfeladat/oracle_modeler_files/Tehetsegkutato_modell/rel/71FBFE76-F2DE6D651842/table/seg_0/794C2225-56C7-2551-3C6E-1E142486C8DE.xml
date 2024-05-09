@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="794C2225-56C7-2551-3C6E-1E142486C8DE" name="Pont">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>51335A19-5E82-5AF0-6FBA-7628A45565E8</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pont_ertek" id="463F1BB9-8344-BC1A-610B-DFEB434F99A7">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>1D91BFE5-B9EB-999F-E46E-E4B23B1C0F08</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,10,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="szereples_id" id="FD3779A4-1BDB-57F1-1EA9-71AF6F11E58A">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>E4D0ACCA-8503-5C77-DE97-777A54F3E85E</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="053CBAC1-8DEF-1522-8607-EB7EA3E1AB96" referredColumn="65BF1242-4A1F-0611-7CEC-6CCEC8F9ACCA"/>
+</associations>
+</Column>
+<Column name="zsuri_id" id="33D67F5F-E886-1DB8-4B02-6FB5A2FE48C6">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>BEF18710-54C4-2919-D2B3-23D89C133522</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EACC98A-9720-0DB2-715C-5B9E18C6A977" referredColumn="BC2EB005-CB2B-4599-214A-DBE5FD4BC9B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19ECC011-4945-8347-FF91-8EBACB1707A8" name="Pont_Szereples_FK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>E63932D7-1E7D-C6A7-EE34-194DB52410BA</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD3779A4-1BDB-57F1-1EA9-71AF6F11E58A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FA6622E-86FC-AEEC-1F7B-3A00E21CDAF8" name="Pont_Zsuri_FK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>3D10132B-51B7-CD2A-07B2-175693DCA7CB</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33D67F5F-E886-1DB8-4B02-6FB5A2FE48C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9A0FE1A7-3A37-BA47-F1F7-62931BA371ED" mainViewID="12F8D25B-D79B-12E4-13FD-7D007BF7E7DB">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 09:25:04 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

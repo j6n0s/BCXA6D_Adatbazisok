@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC7D3D5E-C3E6-9A97-67EF-FD80D9FCE651" name="Szereples">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>61878B97-911B-1535-EF04-952575C3CC4C</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="szereples_id" id="65BF1242-4A1F-0611-7CEC-6CCEC8F9ACCA">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>E1D18992-27F8-7DC0-34E2-370FA7569787</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategoria" id="CAAE73D8-F77F-17AD-C33C-F39B32E783E3">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>A0313816-4609-3165-7CB9-AC3B4B4B7F66</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Versenyzok_versenyzo_id" id="D8D8E37E-5619-459B-812E-5FBFCC38C538">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>3C18E1A0-4D95-4AEC-1EB8-701020FA9694</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0788B106-1E33-2A17-7A51-D8F84ADEB07A" referredColumn="4F4D7731-8541-5176-6E04-CB3B89DF46E7"/>
+</associations>
+</Column>
+<Column name="kor_id" id="8357ABC1-0455-0BA6-0EFA-ED486032018A">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>913B7DB8-2B27-0BA2-EB40-1864B7CB0CBB</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84CB268A-3F81-3023-2897-5BF908F87B62" referredColumn="3D7E9135-0F09-63B7-C0C5-8204277D9DB9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73EEE370-4E7E-E68A-7745-2668A68F5DEB" name="Szereples_PK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>2B1DEB2F-128C-4B11-8849-F4291573C3AC</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65BF1242-4A1F-0611-7CEC-6CCEC8F9ACCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D69437-B302-BF96-DA0E-5D511B3CCF62" name="Szereples_Kor_FK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>F2BCE338-6E1F-AB70-A509-4C7D598A5FA7</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8357ABC1-0455-0BA6-0EFA-ED486032018A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE1CD1FC-077F-7D64-E9F7-83D1A745F94A" name="Szereples_Versenyzok_FK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>22DA5FF0-3BB5-62F5-5AD8-E66C5A94CC82</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D8E37E-5619-459B-812E-5FBFCC38C538"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

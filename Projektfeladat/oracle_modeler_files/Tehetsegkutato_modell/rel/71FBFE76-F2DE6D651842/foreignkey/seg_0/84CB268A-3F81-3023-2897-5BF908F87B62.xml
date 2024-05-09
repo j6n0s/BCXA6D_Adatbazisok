@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84CB268A-3F81-3023-2897-5BF908F87B62" containerWithKeyObject="CC7D3D5E-C3E6-9A97-67EF-FD80D9FCE651" localFKIndex="A4D69437-B302-BF96-DA0E-5D511B3CCF62" name="Szereples_Kor_FK">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 17:24:21 UTC</createdTime>
+<generatorID>F2BCE338-6E1F-AB70-A509-4C7D598A5FA7</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<referredTableLongName>Kor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05DC5DD2-AA73-42D8-8772-806783F9876D</referredTableID>
+<keyObject>8E943254-7D73-3BE6-ADFD-AE58EA23A27E</keyObject>
+<referredKeyID>8E943254-7D73-3BE6-ADFD-AE58EA23A27E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

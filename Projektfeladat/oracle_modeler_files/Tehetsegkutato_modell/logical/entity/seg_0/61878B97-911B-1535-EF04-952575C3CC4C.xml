@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61878B97-911B-1535-EF04-952575C3CC4C" name="Szereples">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 09:31:02 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="szereples_id" id="E1D18992-27F8-7DC0-34E2-370FA7569787">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 11:50:17 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategoria" id="A0313816-4609-3165-7CB9-AC3B4B4B7F66">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 11:51:50 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="versenyzo_id" id="3C18E1A0-4D95-4AEC-1EB8-701020FA9694">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 12:54:49 UTC</createdTime>
+<generatorID>22DA5FF0-3BB5-62F5-5AD8-E66C5A94CC82</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<referedAttribute>EDCCAA0B-D5F6-6633-F565-6610F99BDAB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kor_id" id="913B7DB8-2B27-0BA2-EB40-1864B7CB0CBB">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 13:06:05 UTC</createdTime>
+<generatorID>F2BCE338-6E1F-AB70-A509-4C7D598A5FA7</generatorID>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="true"/>
+</engineerTo>
+<referedAttribute>6C00547C-4765-3663-CFBA-F30870D34386</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B1DEB2F-128C-4B11-8849-F4291573C3AC" name="Key_2">
+<createdBy>Deskó Zoltán</createdBy>
+<createdTime>2024-05-01 11:52:53 UTC</createdTime>
+<ownerDesignName>Tehetsegkutato_modell</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="71FBFE76-FFEE-62ED-B428-F2DE6D651842" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E1D18992-27F8-7DC0-34E2-370FA7569787</newElementsIDs>
+<usedAttributes>
+<attributeRef>E1D18992-27F8-7DC0-34E2-370FA7569787</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
